@@ -1,7 +1,3 @@
-Here's your rewritten text in the format of a GitHub README file for the "BAM Analyser" project:
-
----
-
 # BAM Analyser
 
 The BAM Analyser is a Python script designed to analyze base and mapping quality distributions from BAM files. It provides essential quality metrics and generates informative visual plots to help understand the data better.

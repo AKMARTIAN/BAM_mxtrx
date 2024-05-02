@@ -39,6 +39,7 @@ python BAMview.py
 ## Output
 
 PNG files: Plots showing the distributions of base and mapping qualities.
+
 Text file: Detailed metrics of the processed reads, including total reads, mapped reads, and high-quality reads.
 
 ## Note:

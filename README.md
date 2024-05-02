@@ -25,7 +25,7 @@ Basic execution:
 
 Bash
 ./BAM_analyser.py your_bam_file.bam
-Use code with caution.
+
 
  Replace your_bam_file.bam with the path to your actual BAM file.
 
@@ -33,7 +33,7 @@ With optional title (for plots):
 
 Bash
 ./BAM_analyser.py your_bam_file.bam --title "My BAM Analysis"
-Use code with caution.
+
 
  This creates plots with the provided title.
 
@@ -48,4 +48,3 @@ Quality Distribution Plots (Optional): If matplotlib is installed, the script al
 Note:
 
 The script filters out reads with missing base quality scores to avoid errors. This filtering is reported in the metrics file.
-Further Developments:

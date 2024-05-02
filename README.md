@@ -40,6 +40,10 @@ python BAMview.py
 - **PNG files**: Plots showing the distributions of base and mapping qualities.
 - **Text file**: Detailed metrics of the processed reads, including total reads, mapped reads, and high-quality reads.
 
+## Note:
+
+The script filters out reads with missing base quality scores to avoid errors. This filtering is reported in the metrics file.
+
 ## Contributing
 Contributions to BAMview are welcome. Please feel free to fork the repository, make your changes, and submit a pull request.
 

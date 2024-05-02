@@ -49,7 +49,3 @@ Note:
 
 The script filters out reads with missing base quality scores to avoid errors. This filtering is reported in the metrics file.
 Further Developments:
-
-Consider adding functionalities like handling paired-end reads or outputting data in different formats (e.g., CSV).
-Explore more advanced command-line arguments for customization.
-We welcome your feedback and contributions!

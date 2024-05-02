@@ -37,8 +37,13 @@ python BAMview.py
 - `--title` (optional): Specify a base title for the graphs.
 
 ## Output
-- **PNG files**: Plots showing the distributions of base and mapping qualities.
-- **Text file**: Detailed metrics of the processed reads, including total reads, mapped reads, and high-quality reads.
+Output:
+
+The script generates two main outputs:
+
+Metrics Text File: A text file named your_bam_file_metrics.txt (where your_bam_file is the name of your BAM file) is created. It contains various metrics like total reads, mapped reads, unmapped reads, average alignment score, and the number of reads with high base quality (above 30) and perfect mapping quality (score of 60).
+
+Quality Distribution Plots (Optional): If matplotlib is installed, the script also generates plots visualizing the base quality and mapping quality distributions of the reads in the BAM file. These plots are saved as PNG images with filenames indicating their content (e.g., your_bam_file_base_quality.png).
 
 ## Note:
 

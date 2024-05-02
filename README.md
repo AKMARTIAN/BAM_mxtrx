@@ -42,8 +42,8 @@ The BAM Analyser is a Python script designed to analyze base and mapping quality
 
 The script excludes reads lacking base quality scores to prevent errors, and these exclusions are documented in the metrics file.
 
-Version 1.0 May-2024
-
 ---
 
 Feel free to customize the wording or add additional sections as needed for your project!
+
+Version 1.0 May-2024
